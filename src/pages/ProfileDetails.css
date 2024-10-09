@@ -1,0 +1,41 @@
+/* src/ProfileDetails.css */
+
+.profile-details {
+    max-width: 600px; /* Set max width for the details */
+    margin: 20px auto; /* Center the component */
+    padding: 20px; /* Padding around the content */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    background-color: #fff; /* White background */
+    text-align: center; /* Center the text */
+  }
+  
+  .profile-name {
+    font-size: 24px; /* Font size for name */
+    font-weight: bold; /* Bold font */
+    margin-bottom: 10px; /* Space below the name */
+    color: #333; /* Dark color */
+  }
+  
+  .profile-photo {
+    width: 100%; /* Full width */
+    max-width: 150px; /* Max width for the photo */
+    border-radius: 50%; /* Circular image */
+    margin-bottom: 15px; /* Space below the photo */
+  }
+  
+  .profile-description,
+  .profile-contact,
+  .profile-interests {
+    font-size: 16px; /* Font size for text */
+    color: #666; /* Gray color for text */
+    margin-bottom: 8px; /* Space between paragraphs */
+  }
+  
+  .loading {
+    text-align: center; /* Center loading text */
+    font-size: 18px; /* Font size for loading text */
+    color: #007bff; /* Blue color for loading text */
+  }
+  
