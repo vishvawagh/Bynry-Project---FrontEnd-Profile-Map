@@ -1,0 +1,38 @@
+/* Container for the whole homepage */
+.homepage-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Position the button in the top-right corner */
+  .top-right {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  
+  /* Style for the "Go to Admin Page" button */
+  .admin-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Button hover effect */
+  .admin-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Centering the page title */
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+  }
+  

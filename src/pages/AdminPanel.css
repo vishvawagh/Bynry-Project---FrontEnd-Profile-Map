@@ -1,0 +1,120 @@
+.admin-panel {
+    max-width: 1400px; /* Limit the width for better readability */
+    margin: 0 auto; /* Center the panel */
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background for contrast */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  h1 {
+    text-align: center; /* Center the header */
+    color: #333; /* Darker text color for contrast */
+  }
+  
+  h2 {
+    color: #555; /* Slightly lighter for subheadings */
+    margin-top: 20px; /* Space above subheadings */
+  }
+  
+  .back-button {
+    background-color: #007bff; /* Primary color for the button */
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 15px; /* Button padding */
+    cursor: pointer; /* Pointer cursor */
+    margin-bottom: 20px; /* Space below the button */
+  }
+  
+  .back-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+  }
+  
+  .admin-profile-list {
+    display: flex;
+    flex-wrap: wrap; /* Allow cards to wrap on smaller screens */
+    gap: 15px; /* Space between profile cards */
+    margin-bottom: 30px; /* Space below the profile list */
+  }
+  
+  .profile-card {
+    background-color: white; /* Card background */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 15px; /* Inner padding */
+    text-align: center; /* Center the text */
+    flex: 1 1 calc(33% - 15px); /* Responsive width, 3 cards per row */
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+  }
+.add-profile{
+    background-color: #2839a7; /* Green for edit */
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 8px 10px; /* Button padding */
+    cursor: pointer; /* Pointer cursor */
+    margin: 5px; /* Space around buttons */
+}
+  .profile-photo {
+    width: 100%; /* Full width for images */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px; /* Slightly rounded image */
+  }
+  
+  .edit-btn, .delete-btn {
+    background-color: #28a745; /* Green for edit */
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 8px 10px; /* Button padding */
+    cursor: pointer; /* Pointer cursor */
+    margin: 5px; /* Space around buttons */
+  }
+  
+  .edit-btn:hover {
+    background-color: #218838; /* Darker green on hover */
+  }
+  
+  .delete-btn {
+    background-color: #dc3545; /* Red for delete */
+  }
+  
+  .delete-btn:hover {
+    background-color: #c82333; /* Darker red on hover */
+  }
+  
+  label {
+    display: block; /* Block display for labels */
+    margin-top: 15px; /* Space above labels */
+    font-weight: bold; /* Bold labels for emphasis */
+  }
+  
+  input[type="text"],
+  input[type="file"] {
+    width: calc(100% - 20px); /* Full width minus padding */
+    padding: 10px; /* Inner padding */
+    margin-top: 5px; /* Space above inputs */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+  }
+  
+  input[type="file"] {
+    padding: 0; /* Remove padding for file input */
+  }
+  
+  input[type="text"]:focus {
+    border-color: #007bff; /* Highlight border on focus */
+    outline: none; /* Remove outline */
+  }
+  
+  .photo-preview {
+    max-width: 200px; /* Max width for image preview */
+    margin-top: 10px; /* Space above preview */
+    border-radius: 5px; /* Rounded corners for preview */
+  }
+  .photo-preview {
+    max-width: 200px; /* Set a max width for the preview */
+    margin-top: 10px; /* Space between the input and the preview */
+  }
+    

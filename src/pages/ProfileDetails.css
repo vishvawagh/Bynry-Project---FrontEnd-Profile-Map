@@ -1,0 +1,53 @@
+/* Container for the profile details page */
+.profile-details {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+  text-align: center;
+}
+.back-button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+/* Profile name styling */
+.profile-name {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Profile photo styling */
+.profile-photo {
+  width: 100%;
+  max-width: 150px;
+  max-height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+  border: 3px solid #007bff;
+}
+
+/* Profile description */
+.profile-description {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+/* Contact and Interests styling */
+.profile-contact, .profile-interests {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  color: #777;
+}
+
+/* Loading message styling */
+.loading {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #888;
+  padding: 50px;
+}
